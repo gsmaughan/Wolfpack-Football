@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="assets/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <title>Wolfpack Trivia</title>
+    </head>
+    <header><strong>Test Your Recruiting Knowledge</strong></header>
+    <body>
+            <div class="container">
+                    <div class="row">
+                      <div class="col-sm-3" id="image">
+                            <img src="assets/images/placeholder.png" alt-"placeholder">
+                      </div>
+                      <div class="col-sm-6">
+                          <div class="row" id="info">
+                                <div class="col-sm-5">
+                                       <strong> Hometown:<br>Position:<br>Height:<br>Weight:<br>247 Composite:<br>Committed:<br>Major:<br></strong>
+                                       <button type="button" class="btn btn-light" id="hint" style="display: none;">Hint</button>
+                                       <button type="button" class="btn btn-light" id="submit" style="display: none;">Submit</button>
+                                    </div>
+                                    <div class="col-sm-7" id="bio">
+                                    </div>
+
+                          </div>
+                          
+                      </div>
+                      <div class="col-sm-3" id="right">
+                            <div class="row" id="chooseHeader" style="text-align: center;"><u>Choose Player</u></div>
+                            <div class="row" id="choices"></div>
+
+                            <div class="row" id="help">
+                                    <!-- <button type="button" class="btn btn-danger" id="Submit" >Submit</button> -->
+                            </div>
+                            <table id="table">
+                                    <tr>
+                                    <th style="width: 80px;">Correct</th>
+                                    
+                                    <th style="width: 80px;">Wrong</th>
+                                    </tr>
+                                    <tr>
+                                    <td id="correct" style="width: 80px;"></td>
+                                    
+                                    <td id="wrong" style="width: 80px;"></td>
+                                    </tr>
+                                       <tr>
+                                    </tr>
+                                   </table>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-danger" id="start" >Start</button>
+             </div>
+
+
+    </body>
+</html>
